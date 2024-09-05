@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Home | Sen</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <!-- Navigation Menu -->
+         <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <span>Sen</span>
+                </div>
+                <div class="links">
+                    <div class="link"><a href="#">Home</a></div>
+                    <div class="link"><a href="#">About</a></div>
+                    <div class="link"><a href="#">Skills</a></div>
+                    <div class="link"><a href="#">Services</a></div>
+                    <div class="link"><a href="#">Contact</a></div>
+                </div>
+                <i class="fa-solid fa-bars hamburg" onclick='hamburg()'></i>
+            </div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="index.html"><color>Home</color></a>
+                    <a href="about.html">About</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="service.html">Service</a>
+                    <a href="contact.html">Contact</a>
+                    <i class="fa-solid fa-xmark cancel" onclick='Cancel()'></i>
+                </div>
+            </div>
+         </nav>
+         <!-- Home Section -->
+         <section>
+            <div class="main-container">
+                <div class="image">
+                    <img src="main.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-left">Hey I'm<span>Eric</span></h1>
+                    <div class="typewriter">I'm a<span class="typewriter-text"></span><label for="">|</label></div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-leetcode"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-hackerrank"></i></a>
+                    </div>
+                    <div class="btn">
+                        <button>Hire me!</button>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <footer>
+            <div class="text">
+                <span>Created By<a href="#">Sen</a>&#169; 2024 All Rights Reserved</span>
+            </div>
+         </footer>
+         <script src="scripts.js"></script>
+    </body>
+</html>
